@@ -40,7 +40,7 @@ public class Codeforces1 {
                 System.out.println("NO"); // Else < 0 o sa returneze NO
             }
         }
-        scanner.close();
+        scanner.close(); // invata de la Anton, it's a good thing to close the scanner.
     }
 }
 
