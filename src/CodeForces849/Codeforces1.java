@@ -6,12 +6,14 @@ public class Codeforces1 {
     public static void main(String[] args) {
 //  New scanner object!
         Scanner scanner = new Scanner(System.in);
+
 //  Integer pentru a alege de cate cazuri avem nevoie!!
 
         System.out.println("Please type a number from 1 to 26:");
         int inputScanner = scanner.nextInt();
 //  Am creat un string care sa contina textul "codeforces"
         String codeForces = "codeforces";
+        //                   012345
 /*
   Aici am creat un while loop in caz ca utilizatoru o sa alege un numar mai mare ca 26.
   O sa se repete pana in momentul in care utilizatorul alege numarul corect.
