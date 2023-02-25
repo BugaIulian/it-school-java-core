@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="f1a87590-4c8e-40e6-bd09-6b238c5cffe0" name="Changes" comment="New Branch">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CodeWarsProblems/ReverseSequence.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,22 +44,9 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.ReverseNumbers">
+  <component name="RunManager" selected="Application.TotalPoints">
     <configuration name="CapitalizeTheFirstLetterOfEachWord" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CodeWarsProblems.CapitalizeTheFirstLetterOfEachWord" />
-      <module name="Codeforces" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="CodeWarsProblems.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GetCentury" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CodeWarsProblems.GetCentury" />
       <module name="Codeforces" />
       <extension name="coverage">
         <pattern>
@@ -111,13 +97,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TotalPoints" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CodeWarsProblems.TotalPoints" />
+      <module name="Codeforces" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="CodeWarsProblems.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TotalPoints" />
         <item itemvalue="Application.ReverseNumbers" />
         <item itemvalue="Application.ReverseSequence" />
         <item itemvalue="Application.GrasshopperSummation" />
         <item itemvalue="Application.CapitalizeTheFirstLetterOfEachWord" />
-        <item itemvalue="Application.GetCentury" />
       </list>
     </recent_temporary>
   </component>
@@ -179,7 +178,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677242862458</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="New Branch">
+      <created>1677256388454</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1677256388454</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
