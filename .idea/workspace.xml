@@ -44,7 +44,20 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.CorrectMistakesInString">
+  <component name="RunManager" selected="Application.AlTeRnaTingCasE">
+    <configuration name="AlTeRnaTingCasE" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CodeWarsProblems.AlTeRnaTingCasE" />
+      <module name="Codeforces" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="CodeWarsProblems.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CorrectMistakesInString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CodeWarsProblems.CorrectMistakesInString" />
       <module name="Codeforces" />
@@ -84,19 +97,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReverseNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CodeWarsProblems.ReverseNumbers" />
-      <module name="Codeforces" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="CodeWarsProblems.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="TotalPoints" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CodeWarsProblems.TotalPoints" />
       <module name="Codeforces" />
@@ -112,11 +112,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AlTeRnaTingCasE" />
         <item itemvalue="Application.CorrectMistakesInString" />
         <item itemvalue="Application.ExpressionsMatters" />
         <item itemvalue="Application.FindMaximumandMinimumValuesofAList" />
         <item itemvalue="Application.TotalPoints" />
-        <item itemvalue="Application.ReverseNumbers" />
       </list>
     </recent_temporary>
   </component>
@@ -220,7 +220,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677442816241</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="New Branch">
+      <created>1677445878574</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1677445878574</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
