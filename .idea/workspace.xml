@@ -44,9 +44,9 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.FindMaximumandMinimumValuesofAList">
-    <configuration name="FindMaximumandMinimumValuesofAList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CodeWarsProblems.FindMaximumandMinimumValuesofAList" />
+  <component name="RunManager" selected="Application.ExpressionsMatters">
+    <configuration name="ExpressionsMatters" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CodeWarsProblems.ExpressionsMatters" />
       <module name="Codeforces" />
       <extension name="coverage">
         <pattern>
@@ -58,8 +58,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GrasshopperSummation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CodeWarsProblems.GrasshopperSummation" />
+    <configuration name="FindMaximumandMinimumValuesofAList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CodeWarsProblems.FindMaximumandMinimumValuesofAList" />
       <module name="Codeforces" />
       <extension name="coverage">
         <pattern>
@@ -112,11 +112,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ExpressionsMatters" />
         <item itemvalue="Application.FindMaximumandMinimumValuesofAList" />
         <item itemvalue="Application.TotalPoints" />
         <item itemvalue="Application.ReverseNumbers" />
         <item itemvalue="Application.ReverseSequence" />
-        <item itemvalue="Application.GrasshopperSummation" />
       </list>
     </recent_temporary>
   </component>
@@ -206,7 +206,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677329264496</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="New Branch">
+      <created>1677362118409</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1677362118409</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
