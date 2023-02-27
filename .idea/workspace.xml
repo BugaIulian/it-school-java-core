@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f1a87590-4c8e-40e6-bd09-6b238c5cffe0" name="Changes" comment="New Branch">
+      <change afterPath="$PROJECT_DIR$/src/CodeWarsProblems/TheHighestProfitWins.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,7 +45,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.SumWithoutHighestAndLowestNumber">
+  <component name="RunManager" selected="Application.TheHighestProfitWins">
     <configuration name="AlTeRnaTingCasE" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CodeWarsProblems.AlTeRnaTingCasE" />
       <module name="Codeforces" />
@@ -84,19 +85,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExpressionsMatters" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CodeWarsProblems.ExpressionsMatters" />
-      <module name="Codeforces" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="CodeWarsProblems.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="SumWithoutHighestAndLowestNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CodeWarsProblems.SumWithoutHighestAndLowestNumber" />
       <module name="Codeforces" />
@@ -110,13 +98,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TheHighestProfitWins" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CodeWarsProblems.TheHighestProfitWins" />
+      <module name="Codeforces" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="CodeWarsProblems.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TheHighestProfitWins" />
         <item itemvalue="Application.SumWithoutHighestAndLowestNumber" />
         <item itemvalue="Application.CountByX" />
         <item itemvalue="Application.AlTeRnaTingCasE" />
         <item itemvalue="Application.CorrectMistakesInString" />
-        <item itemvalue="Application.ExpressionsMatters" />
       </list>
     </recent_temporary>
   </component>
@@ -241,7 +242,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677493793056</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="New Branch">
+      <created>1677495992739</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1677495992739</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
