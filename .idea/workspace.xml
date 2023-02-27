@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f1a87590-4c8e-40e6-bd09-6b238c5cffe0" name="Changes" comment="New Branch">
+      <change afterPath="$PROJECT_DIR$/src/CodeWarsProblems/CalculateAverageArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,9 +45,9 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.FindMaximumandMinimumValuesofAList">
-    <configuration name="FindMaximumandMinimumValuesofAList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CodeWarsProblems.FindMaximumandMinimumValuesofAList" />
+  <component name="RunManager" selected="Application.CalculateAverageArray">
+    <configuration name="AlTeRnaTingCasE" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CodeWarsProblems.AlTeRnaTingCasE" />
       <module name="Codeforces" />
       <extension name="coverage">
         <pattern>
@@ -58,8 +59,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GrasshopperSummation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CodeWarsProblems.GrasshopperSummation" />
+    <configuration name="CalculateAverageArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CodeWarsProblems.CalculateAverageArray" />
       <module name="Codeforces" />
       <extension name="coverage">
         <pattern>
@@ -71,8 +72,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReverseNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CodeWarsProblems.ReverseNumbers" />
+    <configuration name="CountByX" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CodeWarsProblems.CountByX" />
       <module name="Codeforces" />
       <extension name="coverage">
         <pattern>
@@ -84,8 +85,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReverseSequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CodeWarsProblems.ReverseSequence" />
+    <configuration name="SumWithoutHighestAndLowestNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CodeWarsProblems.SumWithoutHighestAndLowestNumber" />
       <module name="Codeforces" />
       <extension name="coverage">
         <pattern>
@@ -97,8 +98,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TotalPoints" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CodeWarsProblems.TotalPoints" />
+    <configuration name="TheHighestProfitWins" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CodeWarsProblems.TheHighestProfitWins" />
       <module name="Codeforces" />
       <extension name="coverage">
         <pattern>
@@ -112,11 +113,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.FindMaximumandMinimumValuesofAList" />
-        <item itemvalue="Application.TotalPoints" />
-        <item itemvalue="Application.ReverseNumbers" />
-        <item itemvalue="Application.ReverseSequence" />
-        <item itemvalue="Application.GrasshopperSummation" />
+        <item itemvalue="Application.CalculateAverageArray" />
+        <item itemvalue="Application.TheHighestProfitWins" />
+        <item itemvalue="Application.SumWithoutHighestAndLowestNumber" />
+        <item itemvalue="Application.CountByX" />
+        <item itemvalue="Application.AlTeRnaTingCasE" />
       </list>
     </recent_temporary>
   </component>
@@ -206,7 +207,56 @@
       <option name="project" value="LOCAL" />
       <updated>1677329264496</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="New Branch">
+      <created>1677362118409</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1677362118409</updated>
+    </task>
+    <task id="LOCAL-00013" summary="New Branch">
+      <created>1677442816241</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1677442816241</updated>
+    </task>
+    <task id="LOCAL-00014" summary="New Branch">
+      <created>1677445878574</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1677445878574</updated>
+    </task>
+    <task id="LOCAL-00015" summary="New Branch">
+      <created>1677450037278</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1677450037278</updated>
+    </task>
+    <task id="LOCAL-00016" summary="New Branch">
+      <created>1677493793056</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1677493793056</updated>
+    </task>
+    <task id="LOCAL-00017" summary="New Branch">
+      <created>1677495992739</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1677495992739</updated>
+    </task>
+    <task id="LOCAL-00018" summary="New Branch">
+      <created>1677497237000</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1677497237001</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
