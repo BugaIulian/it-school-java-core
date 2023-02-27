@@ -1,4 +1,4 @@
-package CodeForces849.checkChar;
+package CodeForcesProblems.checkChar;
 
 import java.util.ArrayList;
 import java.util.Scanner;
