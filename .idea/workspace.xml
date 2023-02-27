@@ -6,8 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="f1a87590-4c8e-40e6-bd09-6b238c5cffe0" name="Changes" comment="New Branch">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CodeForces849/Codeforces1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CodeForcesProblems/Codeforces1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CodeForces849/checkChar/Boolean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CodeForcesProblems/checkChar/Boolean.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +44,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.CountByX">
+  <component name="RunManager" selected="Application.SumWithoutHighestAndLowestNumber">
     <configuration name="AlTeRnaTingCasE" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CodeWarsProblems.AlTeRnaTingCasE" />
       <module name="Codeforces" />
@@ -99,8 +97,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindMaximumandMinimumValuesofAList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CodeWarsProblems.FindMaximumandMinimumValuesofAList" />
+    <configuration name="SumWithoutHighestAndLowestNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CodeWarsProblems.SumWithoutHighestAndLowestNumber" />
       <module name="Codeforces" />
       <extension name="coverage">
         <pattern>
@@ -114,11 +112,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SumWithoutHighestAndLowestNumber" />
         <item itemvalue="Application.CountByX" />
         <item itemvalue="Application.AlTeRnaTingCasE" />
         <item itemvalue="Application.CorrectMistakesInString" />
         <item itemvalue="Application.ExpressionsMatters" />
-        <item itemvalue="Application.FindMaximumandMinimumValuesofAList" />
       </list>
     </recent_temporary>
   </component>
@@ -236,7 +234,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677450037278</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="New Branch">
+      <created>1677493793056</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1677493793056</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
