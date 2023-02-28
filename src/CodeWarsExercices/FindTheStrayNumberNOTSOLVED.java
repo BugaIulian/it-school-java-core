@@ -12,7 +12,7 @@ public class FindTheStrayNumberNOTSOLVED {
         int strayNumber1 = 0;
 
         for (int i = 0; i < arrayTest.length; i++) {
-            sum = arrayTest[i] * 1;
+
         }
 
 
