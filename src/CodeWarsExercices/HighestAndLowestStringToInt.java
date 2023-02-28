@@ -1,6 +1,6 @@
 package CodeWarsExercices;
 
-public class HighestAndLowestStringToIntNOTSOLVED {
+public class HighestAndLowestStringToInt {
     public static void main(String[] args) {
         String highAndLowTest = "1 2 3 4 5";
         String[] strArray = highAndLowTest.split(" ");
