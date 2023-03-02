@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f1a87590-4c8e-40e6-bd09-6b238c5cffe0" name="Changes" comment="Update First of March">
-      <change afterPath="$PROJECT_DIR$/src/CodeWarsExercises/StringToInteger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/EdabitExercises/ReverseOrder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/EdabitExercises/ReversedString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PlayGround/InterestonThreeMonths.java" afterDir="false" />
+    <list default="true" id="f1a87590-4c8e-40e6-bd09-6b238c5cffe0" name="Changes" comment="Update second of March">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ITC/Challenge27Feb.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ITC/Challenge27Feb.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,9 +56,9 @@
       <recent name="EdabitExercises.Test1" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.StringToInteger">
-    <configuration name="DoubleChar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CodeWarsExercises.DoubleChar" />
+  <component name="RunManager" selected="Application.Challenge27Feb">
+    <configuration name="BuildATowerFromAsterix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CodeWarsExercises.BuildATowerFromAsterix" />
       <module name="Codeforces" />
       <extension name="coverage">
         <pattern>
@@ -73,12 +70,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FactorialNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PlayGround.FactorialNumber" />
+    <configuration name="Challenge27Feb" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ITC.Challenge27Feb" />
       <module name="Codeforces" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="PlayGround.*" />
+          <option name="PATTERN" value="ITC.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -86,12 +83,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InterestonThreeMonths" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PlayGround.InterestonThreeMonths" />
+    <configuration name="ConvertAStringToAnArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CodeWarsExercises.ConvertAStringToAnArray" />
       <module name="Codeforces" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="PlayGround.*" />
+          <option name="PATTERN" value="CodeWarsExercises.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -99,12 +96,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReversedString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="EdabitExercises.ReversedString" />
+    <configuration name="DoubleChar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CodeWarsExercises.DoubleChar" />
       <module name="Codeforces" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="EdabitExercises.*" />
+          <option name="PATTERN" value="CodeWarsExercises.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,11 +124,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Challenge27Feb" />
+        <item itemvalue="Application.BuildATowerFromAsterix" />
+        <item itemvalue="Application.ConvertAStringToAnArray" />
         <item itemvalue="Application.StringToInteger" />
         <item itemvalue="Application.DoubleChar" />
-        <item itemvalue="Application.ReversedString" />
-        <item itemvalue="Application.InterestonThreeMonths" />
-        <item itemvalue="Application.FactorialNumber" />
       </list>
     </recent_temporary>
   </component>
@@ -354,7 +351,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677675871111</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="Update second of March">
+      <created>1677758275502</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1677758275502</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -374,7 +378,8 @@
     <MESSAGE value="New Branch" />
     <MESSAGE value="Challege Update 27Feb" />
     <MESSAGE value="Update First of March" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update First of March" />
+    <MESSAGE value="Update second of March" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update second of March" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -383,16 +388,6 @@
           <properties class="java.util.InputMismatchException" package="java.util" />
           <option name="timeStamp" value="1" />
         </breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/CodeWarsExercises/StringToInteger.java</url>
-          <line>6</line>
-          <option name="timeStamp" value="28" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/CodeWarsExercises/StringToInteger.java</url>
-          <line>25</line>
-          <option name="timeStamp" value="29" />
-        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
