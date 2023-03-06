@@ -18,7 +18,6 @@ public class Challenge27Feb {
         System.out.println(wishList);
         List<String> studentList = new ArrayList<>();
         String[] studentNames = new String[]{"John", "Mary", "Daniel", "Joshua", "Mark", "Liam", "Paul", "Anne", "Ben", "Michael"};
-
         for (String name : studentNames) {
             studentList.add(name);
         }
