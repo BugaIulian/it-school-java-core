@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f1a87590-4c8e-40e6-bd09-6b238c5cffe0" name="Changes" comment="Update second of March">
+      <change afterPath="$PROJECT_DIR$/src/ClassDesignChallenge/Courses.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ClassDesignChallenge/Professors.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ClassDesignChallenge/Students.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ClassDesignChallenge/UniversityInfo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ITC/Challenge27Feb.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ITC/Challenge27Feb.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +59,7 @@
       <recent name="EdabitExercises.Test1" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.A2thOfMarch">
+  <component name="RunManager" selected="Application.UniversityInfo">
     <configuration name="A2thOfMarch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ITC.A2thOfMarch" />
       <module name="Codeforces" />
@@ -109,12 +112,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringToInteger" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CodeWarsExercises.StringToInteger" />
+    <configuration name="UniversityInfo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ClassDesignChallenge.UniversityInfo" />
       <module name="Codeforces" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="CodeWarsExercises.*" />
+          <option name="PATTERN" value="ClassDesignChallenge.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,11 +127,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.UniversityInfo" />
         <item itemvalue="Application.A2thOfMarch" />
         <item itemvalue="Application.Challenge27Feb" />
         <item itemvalue="Application.BuildATowerFromAsterix" />
         <item itemvalue="Application.ConvertAStringToAnArray" />
-        <item itemvalue="Application.StringToInteger" />
       </list>
     </recent_temporary>
   </component>
@@ -372,7 +375,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677775415525</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="Update second of March">
+      <created>1678094562544</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1678094562544</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
