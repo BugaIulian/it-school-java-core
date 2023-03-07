@@ -1,7 +1,6 @@
 package ClassDesignChallengeConstructors;
 
 public class Professor {
-
     private String firstName;
     private String lastName;
     private String cnp;
