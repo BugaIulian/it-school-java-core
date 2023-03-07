@@ -9,17 +9,13 @@ O is misinterpreted as 0
 I is misinterpreted as 1
 The test cases contain numbers only by mistake. */
 public class CorrectMistakesInString {
-
     public static int STRING_CHARACTERS = 0;
-
     public static void main(String[] args) {
-
 
         String testString = "R0BERT MERLE - THE DAY 0F THE D0LPH1N";
         String outPutString = "";
         char[] testStringChars = testString.toCharArray();
         char c = ' ';
-
         for (STRING_CHARACTERS = 0; STRING_CHARACTERS < testStringChars.length; STRING_CHARACTERS++) {
             c = testStringChars[STRING_CHARACTERS];
             switch (c) {
@@ -35,11 +31,7 @@ public class CorrectMistakesInString {
 
             }
         }
-
-
-
         System.out.println(String.valueOf(testStringChars));
-
     }
 }
 

@@ -7,11 +7,8 @@ import java.util.Arrays;
 public class ReturnArrayWithValueDoubled {
     public static void main(String[] args) {
         int[] testArray = new int[] {1, 2, 3};
-
         for (int i = 0; i < testArray.length; i++) {
-
             testArray[i] = testArray[i] * 2;
-
         }
         System.out.println(Arrays.toString(testArray));
     }

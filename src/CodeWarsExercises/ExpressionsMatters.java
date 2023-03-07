@@ -12,30 +12,23 @@ package CodeWarsExercises;
 //(1 + 2) * 3 = 9
 //So the maximum value that you can obtain is 9.
 public class ExpressionsMatters {
-    public static void main(String[] args) {
 
+    public static void main(String[] args) {
         int a = 1;
         int b = 1;
         int c = 10;
-
         int minimumValue = Integer.MIN_VALUE;
-
-
         Integer[] sumList = new Integer[4];
-
         sumList[0] = a * (b + c);
         sumList[1] = a * b * c;
         sumList[2] = a + b * c;
         sumList[3] = (a + b) * c;
-
         for (Integer integer : sumList) {
             if (integer > minimumValue) {
                 minimumValue = integer;
             }
         }
-
         System.out.println(minimumValue);
-
     }
 }
 

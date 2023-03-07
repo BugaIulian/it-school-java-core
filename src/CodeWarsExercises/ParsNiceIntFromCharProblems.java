@@ -15,7 +15,6 @@ public class ParsNiceIntFromCharProblems {
         String girlsAnswer = scanner.nextLine();
         String getInteger = girlsAnswer.substring(0, 1);
         int stringToInteger = Integer.parseInt(getInteger);
-
         System.out.println(stringToInteger);
     }
 }

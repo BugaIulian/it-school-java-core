@@ -5,6 +5,5 @@ public class RemoveStringSpaces {
         String withSpaces = "here are some spaces";
         String withoutSpaces = withSpaces.replace(" ","");
         System.out.println(withoutSpaces);
-
     }
 }

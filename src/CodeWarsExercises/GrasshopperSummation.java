@@ -10,18 +10,15 @@ import java.util.Scanner;
 //8 -> 36 (1 + 2 + 3 + 4 + 5 + 6 + 7 + 8)
 
 public class GrasshopperSummation {
+
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);
-
         int inputNumber = scanner.nextInt();
         int sum = 0;
         int finalSum = 0;
-
-
         for (int i = 0; i < inputNumber; i++) {
             ++sum;
-
             finalSum += sum;
         }
         System.out.println(finalSum);

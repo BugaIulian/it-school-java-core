@@ -6,27 +6,17 @@ import java.util.Arrays;
 
 public class TheHighestProfitWins {
     public static void main(String[] args) {
-
         int[] arrayNumbers = new int[] {1, 2, 8, 4, 5};
-
         Arrays.sort(arrayNumbers);
-
         int[] newArrayMinMax = new int[2];
-
         newArrayMinMax[0] = arrayNumbers[0];
         newArrayMinMax[1] = arrayNumbers[arrayNumbers.length - 1];
-
         System.out.println(Arrays.toString(newArrayMinMax));
-
-
-
-
 
 //        int max = Math.max(arrayNumbers[0], arrayNumbers[arrayNumbers.length - 1]);
 //        int min = Math.min(arrayNumbers[0], arrayNumbers[arrayNumbers.length - 1]);
 //        System.out.println(max);
 //        System.out.println(min);
-
     }
 }
 

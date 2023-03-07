@@ -5,7 +5,6 @@ public class ConvertBooleantoStrings {
 
         String animal = "Cat";
         System.out.println(animal.substring(1,2));
-
     }
     public static String boolToWord(boolean b) {
         return b ? "Yes" : "No";
