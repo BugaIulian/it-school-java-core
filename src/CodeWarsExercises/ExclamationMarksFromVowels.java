@@ -9,8 +9,6 @@ public class ExclamationMarksFromVowels {
     public static String replace(final String s) {
 
         StringBuilder somethingUseful = new StringBuilder();
-
-
         for (int i = 0; i < s.length(); i++) {
             char c = s.charAt(i);
             switch (c) {
@@ -21,13 +19,10 @@ public class ExclamationMarksFromVowels {
                     throw new IllegalStateException("Unexpected value: " + c);
             }
             somethingUseful.append(c);
-
         }
-
         return somethingUseful.toString();
     }
 }
-
 //public class Solution {
 //    public static String replace(final String s) {
 //        return s.replaceAll("[aeiouAEIOU]", "!");
