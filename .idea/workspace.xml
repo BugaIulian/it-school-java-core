@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f1a87590-4c8e-40e6-bd09-6b238c5cffe0" name="Changes" comment="Update second of March">
+      <change afterPath="$PROJECT_DIR$/src/CodeWarsExercises/ExclamationMarksFromVowels.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ClassDesignChallenge/Courses.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ClassDesignChallenge/Course.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ClassDesignChallenge/Professors.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ClassDesignChallenge/Professor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ClassDesignChallenge/Students.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ClassDesignChallenge/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ClassDesignChallenge/UniversityInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ClassDesignChallenge/UniversityInfo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,7 +29,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/src/ClassDesignChallenge/UniversityInfo.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/ClassDesignChallengeConstructors/UniversityInfo.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -62,13 +59,13 @@
       <recent name="EdabitExercises.Test1" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.RoundUpToTheNextMultipleOfFive">
-    <configuration name="A2thOfMarch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ITC.A2thOfMarch" />
+  <component name="RunManager" selected="Application.ExclamationMarksFromVowels">
+    <configuration name="ConvertNumberToString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PlayGround.ConvertNumberToString" />
       <module name="Codeforces" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ITC.*" />
+          <option name="PATTERN" value="PlayGround.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -76,12 +73,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConvertNumberToString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PlayGround.ConvertNumberToString" />
+    <configuration name="ExclamationMarksFromVowels" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CodeWarsExercises.ExclamationMarksFromVowels" />
       <module name="Codeforces" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="PlayGround.*" />
+          <option name="PATTERN" value="CodeWarsExercises.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -116,11 +113,11 @@
       </method>
     </configuration>
     <configuration name="UniversityInfo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ClassDesignChallenge.UniversityInfo" />
+      <option name="MAIN_CLASS_NAME" value="ClassDesignChallengeConstructors.UniversityInfo" />
       <module name="Codeforces" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ClassDesignChallenge.*" />
+          <option name="PATTERN" value="ClassDesignChallengeConstructors.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -130,11 +127,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ExclamationMarksFromVowels" />
         <item itemvalue="Application.RoundUpToTheNextMultipleOfFive" />
         <item itemvalue="Application.ReverseWords" />
         <item itemvalue="Application.ConvertNumberToString" />
         <item itemvalue="Application.UniversityInfo" />
-        <item itemvalue="Application.A2thOfMarch" />
       </list>
     </recent_temporary>
   </component>
@@ -395,7 +392,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678105719976</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="Update second of March">
+      <created>1678194051941</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1678194051941</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
