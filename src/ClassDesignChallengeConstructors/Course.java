@@ -1,7 +1,6 @@
 package ClassDesignChallengeConstructors;
 
 public class Course {
-
     private String courseName;
     private String schedule;
     private int durationHours;
