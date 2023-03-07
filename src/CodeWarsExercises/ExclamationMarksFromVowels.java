@@ -5,7 +5,6 @@ public class ExclamationMarksFromVowels {
     public static void main(String[] args) {
         System.out.println(replace("Replace all the vowels with exclamation marks"));
     }
-
     public static String replace(final String s) {
 
         StringBuilder somethingUseful = new StringBuilder();
