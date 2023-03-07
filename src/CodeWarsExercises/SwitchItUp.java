@@ -2,13 +2,9 @@ package CodeWarsExercises;
 
 import java.util.Scanner;
 
-
-
 public class SwitchItUp {
     public static void main(String[] args) {
-
         Scanner scanner = new Scanner(System.in);
-
         int numberProvided = scanner.nextInt();
         String intToString = switch (numberProvided) {
             case 0 -> "Zero";
@@ -23,7 +19,6 @@ public class SwitchItUp {
             case 9 -> "Nine";
             default -> "";
         };
-
         System.out.println(intToString);
     }
 }

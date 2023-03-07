@@ -6,12 +6,9 @@ public class FindMaximumandMinimumValuesofAList {
         int[] list = {4, 6, 2, 1, 9, 63, -134, 566};
         int minimumValue = Integer.MIN_VALUE;
         int maximumValue = Integer.MAX_VALUE;
-
-
         for (int i = 0; i < list.length; i++) {
             if (list[i] > minimumValue) {
                 minimumValue = list[i];
-
             } else if (list[i] < maximumValue) {
                 maximumValue = list[i];
             }

@@ -10,10 +10,8 @@ public class SumWithoutHighestAndLowestNumber {
         Arrays.sort(numberArraysTest);
         int sum = 0;
         for (int i = 1; i < numberArraysTest.length - 1; i++) {
-
             sum += numberArraysTest[i];
         }
-
         System.out.println(sum);
     }
 }

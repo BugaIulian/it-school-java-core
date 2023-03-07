@@ -8,9 +8,7 @@ public class AreYouPlayingBanjo {
         String name;
         String namePlaysBanjo;
         Scanner scanner = new Scanner(System.in);
-
         name = scanner.next();
-
         String firstCh = name.substring(0, 1);
         switch (firstCh) {
             case "R", "r" -> System.out.println(name + " plays banjo");
