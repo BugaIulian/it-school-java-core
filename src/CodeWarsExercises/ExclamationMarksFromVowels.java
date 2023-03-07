@@ -15,6 +15,7 @@ public class ExclamationMarksFromVowels {
                 c = '!';
             } else {
                 throw new IllegalStateException("Unexpected value: " + c);
+
             }
             somethingUseful.append(c);
         }
