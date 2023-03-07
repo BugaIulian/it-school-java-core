@@ -3,7 +3,7 @@ package CodeWarsExercises;
 //https://www.codewars.com/kata/57fb09ef2b5314a8a90001ed/train/java
 public class ExclamationMarksFromVowels {
     public static void main(String[] args) {
-        System.out.println(replace("Replace all the vowels with exclamation marks"));
+        System.out.println(replace(" Replace all the vowels with exclamation marks"));
     }
     public static String replace(final String s) {
 
