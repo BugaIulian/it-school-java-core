@@ -1,5 +1,6 @@
 package OOPExample2;
 
+
 import java.time.LocalDate;
 
 public class SupermarketOperations {
