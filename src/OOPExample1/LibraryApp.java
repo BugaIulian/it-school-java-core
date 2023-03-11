@@ -14,12 +14,12 @@ public class LibraryApp {
         System.out.println("The first book that arrived on our shelters is " + firstAuthor.getAuthorFirstName() + " " + firstAuthor.getAuthorSecondName() + ", " + firstAuthor.getAuthorFirstName()
                 + " prefers the " + firstAuthor.getGenre() + " genre.");
         System.out.println("His new book " + "'" + firstBook.getBookTitle() + "'" + " is a major world wide success with over one million sells. You can buy the book from our website with only "
-                + firstBook.getBookPrice() + " dollars" + "But hurry up, the offer is available only on " + LocalDate.now().getMonth());
+                + firstBook.getBookPrice() + " dollars" + " But hurry up, the offer is available only on " + LocalDate.now().getMonth());
     }
 
 
     private static String writeFirstName() {
-        System.out.println("Please write the author's name:");
+        System.out.println("Please write the author's first name:");
         return scanner.nextLine();
     }
 
