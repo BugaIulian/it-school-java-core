@@ -1,6 +1,6 @@
 package OOPExample1;
 
-public class Utils {
+class Utils {
     String authorFirstName;
     String authorSecondName;
     String genre;
