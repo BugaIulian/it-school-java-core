@@ -7,19 +7,18 @@ public class Product extends Util {
     private boolean isBio;
     private final String storeLocation;
     private final LocalDate expirationDate;
-    Category productCategory;
+    private String productCategory;
 
-    public Category getProductCategory() {
-        return productCategory;
-    }
+    private String itemLocation;
 
-    public Product(String name, double price, LocalDate expirationDate, String storeLocation, boolean isBio, Category productCategory) {
+    public Product(String name, double price, LocalDate expirationDate, String storeLocation, boolean isBio, String productCategory, String itemLocation) {
         super(name);
         this.price = price;
         this.expirationDate = expirationDate;
         this.storeLocation = storeLocation;
         this.isBio = isBio;
         this.productCategory = productCategory;
+        this.itemLocation = itemLocation;
     }
 
     public String getStoreLocation() {
@@ -28,5 +27,13 @@ public class Product extends Util {
 
     public LocalDate getExpirationDate() {
         return expirationDate;
+    }
+
+    public String getProductCategory() {
+        return productCategory;
+    }
+
+    public String getItemLocation() {
+        return itemLocation;
     }
 }
