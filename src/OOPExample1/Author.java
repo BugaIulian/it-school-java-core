@@ -9,5 +9,4 @@ public class Author extends Utils {
         this.awards = awards;
         this.agency = agency;
     }
-
 }
