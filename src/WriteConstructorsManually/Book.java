@@ -2,7 +2,7 @@ package WriteConstructorsManually;
 
 import java.time.LocalDate;
 
-public class Book {
+class Book {
     private String title;
     private String authorName;
     private LocalDate releaseDate;
