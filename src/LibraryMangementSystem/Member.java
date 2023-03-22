@@ -1,45 +1,46 @@
 package LibraryMangementSystem;
 
-import java.util.Date;
+import java.time.LocalDate;
+import java.util.ArrayList;
 import java.util.List;
 
 public class Member {
     private String name;
     private String address;
     private String contactInformation;
-    private List<Book> borrowedBooks;
-    private Date membershipExpirationTime;
+    private List<Book> borrowedBooks = new ArrayList<>();
+    private LocalDate membershipExpirationTime;
+
+    public void setName(String name) {
+        this.name = name;
+    }
 
     public String getName() {
         return name;
     }
 
-    private void borrowBook(Book book) {
-        if (borrowedBooks.contains(book)) {
-            System.out.println("You already borrowed this book!");
-        } else {
-            borrowedBooks.add(book);
-        }
+    public void borrowBook(Book book) {
+        borrowedBooks.add(book);
     }
 
-    private void returnBook(Book book) {
+    public void returnBook(Book book) {
         borrowedBooks.remove(book);
     }
 
-    private List<Book> displayBorrowedBooks() {
+    public List<String> displayBorrowedBooks() {
+        List<String> borrowedBookList = new ArrayList<>();
         if (borrowedBooks.isEmpty()) {
             System.out.println("Nothing to return to the library.");
         }
-        return borrowedBooks;
+        for (Book book : borrowedBooks) {
+            borrowedBookList.add(book.getBookTitle());
+        }
+        return borrowedBookList;
     }
 
-    private boolean isOverdue() {
-        Date currentDate = new Date();
-        for (Book book : borrowedBooks) {
-            if (book.getDueDate().before(currentDate)) {
-                return true;
-            }
-        }
+    public boolean isOverdue() {
+        LocalDate now = LocalDate.now();
+        //need help, I can't create a logic for it...
         return false;
     }
 }

@@ -9,14 +9,13 @@ public class Author extends Member {
     private Date dateOfBirth;
     private List<Book> authorBookList;
 
-
     public String displayAuthorInformation() {
         return getName() + " has the " + authorNationality + " nationality and was born in " + dateOfBirth;
     }
 
     public void addBooks(Book book) {
         if (authorBookList.contains(book)) {
-            System.out.println("This book's Author is already: " + getName());
+            System.out.println("This book's author is already: " + getName());
         } else {
             authorBookList.add(book);
         }
@@ -25,6 +24,4 @@ public class Author extends Member {
     public void removeBooks(Book book) {
         authorBookList.remove(book);
     }
-
-
 }
