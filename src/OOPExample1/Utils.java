@@ -1,9 +1,9 @@
 package OOPExample1;
 
 class Utils {
-    String authorFirstName;
-    String authorSecondName;
-    String genre;
+    private String authorFirstName;
+    private String authorSecondName;
+    private String genre;
 
     public Utils(String authorFirstName, String authorSecondName, String genre) {
         this.authorFirstName = authorFirstName;
