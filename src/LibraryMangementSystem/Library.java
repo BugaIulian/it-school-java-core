@@ -72,7 +72,7 @@ public class Library {
     public String searchBooksByISBN(int isbnNumber) {
 
         for (Book book : libraryBookList) {
-            if (book.getIsbn() == isbnNumber) {
+            if (book.getIsbnBookNumber() == isbnNumber) {
 
                 return "The book matching the ISBN number provided is available in our store with the title: " + book.getBookTitle();
             }

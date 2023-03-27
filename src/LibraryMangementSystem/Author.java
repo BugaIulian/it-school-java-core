@@ -13,7 +13,7 @@ public class Author extends Member {
         return getName() + " has the " + authorNationality + " nationality and was born in " + dateOfBirth;
     }
 
-    public void addBooks(Book book) {
+    public void addBook(Book book) {
         if (authorBookList.contains(book)) {
             System.out.println("This book's author is already: " + getName());
         } else {
