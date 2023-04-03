@@ -1,21 +1,16 @@
 package CollectionsFrameWorkChallenge;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Collections;
-import java.util.List;
+import java.util.*;
 
 public class ArrayListChallenge {
+
     public static void main(String[] args) {
         List<String> colorList = new ArrayList<>();
         colorList.add("Red");
         colorList.add("Blue");
         colorList.add("Green");
         colorList.add("Black");
-        System.out.println(colorList);
-        for (String element : colorList) {
-            System.out.println(element);
-        }
+        printStringList(colorList);
         colorList.add(0, "Purple");
         colorList.remove(3);
         colorList.set(2, "Pink");
@@ -30,18 +25,27 @@ public class ArrayListChallenge {
         Collections.swap(colorList, 0, 1);
         List<String> carList = Arrays.asList("Kia", "Bmw", "Logan");
         colorList.addAll(carList);
-        List<String> cloneList = new ArrayList<>(colorList);
-        cloneList.clear();
-        cloneList.isEmpty(); // evaluate returns true
+        List<String> cloneListOfColorList = new ArrayList<>(colorList);
+        cloneListOfColorList.clear();
+        cloneListOfColorList.isEmpty(); // evaluate returns true
         ArrayList<Integer> someNumbers = new ArrayList<>(6);
-        someNumbers.add(10);
-        someNumbers.add(1);
-        someNumbers.add(12);
-        someNumbers.add(2);
-        someNumbers.add(12);
-        someNumbers.add(112);
-        someNumbers.add(122);
+        addNumbersToList(someNumbers);
         someNumbers.trimToSize();
         someNumbers.ensureCapacity(8);
+    }
+
+    private static void addNumbersToList(List<Integer> someNumbers) {
+        int randomNumberToAddToTheList = 0;
+        for (int i = 0; i < 6; i++) {
+            Random randomNumbers = new Random();
+            randomNumberToAddToTheList = randomNumbers.nextInt(0, 120);
+            someNumbers.add(randomNumberToAddToTheList);
+        }
+    }
+
+    private static void printStringList(List<String> colorList) {
+        for (String element : colorList) {
+            System.out.println(element);
+        }
     }
 }
