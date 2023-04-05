@@ -5,7 +5,7 @@ import java.util.Collections;
 import java.util.LinkedList;
 import java.util.List;
 
-public class LinkedListChallenge {
+public class LinkedListChallenges {
 
     public static void main(String[] args) {
         LinkedList<Integer> firstNumberList = new LinkedList<>(Arrays.asList(2, 4, 5, 1, 10));
