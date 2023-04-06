@@ -19,7 +19,7 @@ public class TreeSetChallenge {
         findAndPrintNumbersGreaterThanOrEqualToAGivenValueInATreeSet(10);
         findAndPrintNumbersLessThanOrEqualToAGivenValueInATreeSet(10);
         findAndPrintTheNumberThatIsStrictlyGreaterThanOrEqualToAGivenValueInATreeSet(10);
-        findAndPrintTheNumberThatIsStrictlyLessThanOrEqualToAGivenValueInATreeSet(10);
+        findAndPrintTheNumberThatIsStrictlyLessThanOrEqualToAGivenValueInATreeSet(24);
         retrieveAndRemoveTheFirstElementFromATreeSet(firstTreeSet);
         retrieveAndRemoveTheLastElementFromATreeSet(firstTreeSet);
         removeAGivenElementFromATreeSet(firstTreeSet, "Pink");
@@ -37,12 +37,12 @@ public class TreeSetChallenge {
         collection.pollFirst();
     }
 
-    private static void findAndPrintTheNumberThatIsStrictlyLessThanOrEqualToAGivenValueInATreeSet(int i) {
-        /** To be discussed with Alex */
+    private static void findAndPrintTheNumberThatIsStrictlyLessThanOrEqualToAGivenValueInATreeSet(int value) {
+        TreeSet<Integer> numbersTreeSet = new TreeSet<>(Arrays.asList(11, 7, 3, 10, 6, 9, 19, 23, 11));
+        System.out.println(numbersTreeSet.floor(value));
     }
 
     private static void findAndPrintTheNumberThatIsStrictlyGreaterThanOrEqualToAGivenValueInATreeSet(int value) {
-        /** To be discussed with Alex as I'm not sure exactly what the bullet's description wants */
         TreeSet<Integer> numbersTreeSet = new TreeSet<>(Arrays.asList(11, 7, 3, 10, 6, 9, 19, 23, 11));
         System.out.println(numbersTreeSet.ceiling(value));
 
@@ -57,19 +57,17 @@ public class TreeSetChallenge {
         TreeSet<Integer> numbersTreeSet = new TreeSet<>(Arrays.asList(11, 7, 3, 10, 6, 9, 19, 23));
         System.out.println("The elements greater than or equal to 10 in the Tree Set are:" + numbersTreeSet.tailSet(10, true));
     }
-
+    /**
+     * I will use two approaches for this method's logic, first will be the old way(the mandalorian way) and the second
+     * way I will use the methods that are specific for a TreeSet collection
+     */
     private static void findAndPrintNumbersLessThanSevenInATreeSet() {
         TreeSet<Integer> numbersTreeSet = new TreeSet<>(Arrays.asList(1, 7, 3, 6, 9));
         TreeSet<Integer> emptyList = new TreeSet<>();
-        /** I will use two approaches for this method's logic, first will be the old way(the mandalorian way) and the second
-         *  way I will use the methods that are specific for a TreeSet collection */
-        for (Integer number : numbersTreeSet) {
-            if (number < 7) {
-                emptyList.add(number);
-            }
-        }
+        numbersTreeSet.stream()
+                .filter(number -> number < 7)
+                .forEach(emptyList::add);
         System.out.println("Numbers less than 7 in a new TreeSet using the old ways: " + emptyList);
-
         TreeSet<Integer> newEmptyList = new TreeSet<>(numbersTreeSet.headSet(7));
         System.out.println("Numbers less than 7 in a new TreeSet using TreeSet specific method: " + newEmptyList);
     }
@@ -90,7 +88,7 @@ public class TreeSetChallenge {
     }
 
     private static void printTheFirstAndLastElementOfATreeSet(TreeSet<String> collection) {
-        System.out.println("First element of the TreeSet is:" + collection.first() + " and the last element of the TreeSet is:" + collection.last());
+        System.out.println("First element of the TreeSet is: " + collection.first() + " and the last element of the TreeSet is: " + collection.last());
     }
 
     private static void reverseAndPrintElementsInATreeSet(TreeSet<String> collection) {
