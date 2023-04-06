@@ -18,4 +18,4 @@ ArrayList
 17. Write a Java program to empty an array list.
 18. Write a Java program to test an array list is empty or not.
 19. Write a Java program to trim the capacity of an array list the current list size.
-20. Write a Java program to increase the size of an array list.
+20. Write a Java program to increase the size of an array list.  
