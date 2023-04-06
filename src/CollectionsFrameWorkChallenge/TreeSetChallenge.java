@@ -45,7 +45,6 @@ public class TreeSetChallenge {
     private static void findAndPrintTheNumberThatIsStrictlyGreaterThanOrEqualToAGivenValueInATreeSet(int value) {
         TreeSet<Integer> numbersTreeSet = new TreeSet<>(Arrays.asList(11, 7, 3, 10, 6, 9, 19, 23, 11));
         System.out.println(numbersTreeSet.ceiling(value));
-
     }
 
     private static void findAndPrintNumbersLessThanOrEqualToAGivenValueInATreeSet(int value) {
